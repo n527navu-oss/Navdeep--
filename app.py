@@ -122,6 +122,3 @@ def save_row_to_sheet(sheet_name, new_row_dict):
         st.session_state["fallback_teachers"] = pd.concat([st.session_state["fallback_teachers"], new_df], ignore_index=True)
     elif sheet_name == "Diary":
         st.session_state["fallback_diary"] = pd.concat([st.s
-
-On Tue, 14 Jul, 2026, 9:42 am Navdeep Singh, <n527navu@gmail.com> wrote:
-https://nb7ikngm2appsrezcm2u9kz.streamlit.app/
